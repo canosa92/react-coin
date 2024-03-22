@@ -5,7 +5,7 @@ import Coin from './pages/Coin';
 import Home from './pages/Home';
 import Favorites from './pages/Favorites'
 
-const Router = createBrowserRouter(
+const App = createBrowserRouter([
   {
       path: '/',
       element: <Header />,
@@ -15,6 +15,6 @@ const Router = createBrowserRouter(
           {path:'/favorites', element: <Favorites/>},
       ]
   }
-)
+])
 
-export default Router;
+export default App
